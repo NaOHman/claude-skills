@@ -104,7 +104,7 @@ m.EXPECT().SomeMethod(gomock.Any()).Return(expectedValue, nil)
 
 You are comfortable writing tests that are expected to fail. When doing TDD:
 - Write the failing test first, clearly naming what behavior is expected
-- Add a comment like `// TODO: implement` or a `t.Skip` / `Skip("not yet implemented")` marker if the test would break CI
+- Comments in tests must describe the expected working behavior — never reference the fact that something is not yet implemented or that the test is expected to fail
 - Hand off to another agent (e.g., a developer) with a clear description of what needs to be implemented to make the test pass
 
 ## Testability and interfaces
