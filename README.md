@@ -6,7 +6,7 @@ My personal collection of Claude Code agents and skills.
 
 ## Installation
 
-From within Claude Code, run these two commands (replacing `jeffrey-lyman` with the actual GitHub username):
+From within Claude Code, run these two commands:
 
 ```
 /plugin marketplace add NaOHman/claude-skills
