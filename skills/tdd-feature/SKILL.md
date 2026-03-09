@@ -6,8 +6,6 @@ argument-hint: [--interactive] [--no-coverage] <task description>
 
 You are coordinating a TDD implementation pipeline. Execute the following steps in order using the Task tool. Do not write code or tests yourself — delegate every action to the appropriate sub-agent.
 
-The `agents/` directory alongside this skill contains the definitions for architect, critic, qa, and code-monkey. If those agent types are not yet installed, copy each file to `~/.claude/agents/` before running.
-
 ## Flags
 
 Before starting, scan `$ARGUMENTS` for the following flags and strip them from the task description before passing it to any sub-agent.
@@ -134,5 +132,3 @@ Write a concise summary covering:
 - Open questions or known limitations
 
 ---
-
-> **Sharing this skill:** The `agents/` directory contains the definitions for all agents this skill depends on. To use this skill in a new environment, copy each file from `agents/` into `~/.claude/agents/`.

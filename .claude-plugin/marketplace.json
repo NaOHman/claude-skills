@@ -1,0 +1,16 @@
+{
+  "name": "naoh-tools",
+  "owner": {
+    "name": "Jeffrey Lyman"
+  },
+  "metadata": {
+    "description": "TDD pipeline skill and supporting agents for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "claude-skills",
+      "source": ".",
+      "description": "TDD feature pipeline: coordinates architect, critic, qa, and code-monkey agents to implement features using test-driven development."
+    }
+  ]
+}

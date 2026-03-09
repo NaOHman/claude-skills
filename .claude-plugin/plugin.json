@@ -1,0 +1,9 @@
+{
+  "name": "claude-skills",
+  "description": "TDD feature pipeline: coordinates architect, critic, qa, and code-monkey agents to implement features using test-driven development.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jeffrey Lyman"
+  },
+  "repository": "https://github.com/jeffrey-lyman/claude-skills"
+}
