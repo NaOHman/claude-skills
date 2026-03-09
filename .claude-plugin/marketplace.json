@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "claude-skills",
-      "source": ".",
+      "source": "./",
       "description": "TDD feature pipeline: coordinates architect, critic, qa, and code-monkey agents to implement features using test-driven development."
     }
   ]
